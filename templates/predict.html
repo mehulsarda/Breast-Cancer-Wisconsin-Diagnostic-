@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict</title>
+</head>
+
+<body>
+    <center>
+
+        <h1>Welcome to prediction</h1>
+
+        <form action="/predicted" method="POST" enctype="multipart/form-data">
+            <input type="number" step="0.0000001" name="radius_mean" placeholder="radius_mean" /><br>
+            <input type="number" step="0.0000001" name="texture_mean" placeholder="texture_mean" /><br>
+            <input type="number" step="0.0000001" name="smoothness_mean" placeholder="smoothness_mean" /><br>
+            <input type="number" step="0.0000001" name="compactness_mean" placeholder="compactness_mean" /><br>
+            <input type="number" step="0.0000001" name="symmetry_mean" placeholder="symmetry_mean" /><br>
+            <input type="number" step="0.0000001" name="fractal_dimension_mean"
+                placeholder="fractal_dimension_mean" /><br>
+            <input type="number" step="0.0000001" name="radius_se" placeholder="radius_se" /><br>
+            <input type="number" step="0.0000001" name="texture_se" placeholder="texture_se" /><br>
+            <input type="number" step="0.0000001" name="smoothness_se" placeholder="smoothness_se" /><br>
+            <input type="number" step="0.0000001" name="compactness_se" placeholder="compactness_se" /><br>
+            <input type="number" step="0.0000001" name="concave_points_se" placeholder="concave_points_se" /><br>
+            <input type="number" step="0.0000001" name="symmetry_se" placeholder="symmetry_se" /><br>
+            <input type="number" step="0.0000001" name="symmetry_worst" placeholder="symmetry_worst" /><br>
+            <input type="number" step="0.0000001" name="fractal_dimension_worst"
+                placeholder="fractal_dimension_worst" /><br>
+            <input type="submit" step="0.0000001" name='btn' value="submit">
+
+        </form>
+
+    </center>
+
+</body>
+
+</html>
